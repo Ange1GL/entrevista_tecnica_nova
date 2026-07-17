@@ -2,7 +2,7 @@ package com.nova.customer_update.constant;
 
 public enum TopicCustomerEnum {
 
-    ALTA_CUSTOMER("ALTA_CUSTOMER");
+    ALTA_CUSTOMER("alta-customer");
 
 
     private final String value;
