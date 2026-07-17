@@ -24,6 +24,8 @@ kafka:
   sasl:
     username: admin
     password: admin-secret
+  consumer:
+    group-id: customer-registration-consumer-group
 
 server:
   port: 8082
