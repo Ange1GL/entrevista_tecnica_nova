@@ -42,11 +42,10 @@ public class CreateCustomerServiceImplTest {
         entityGuardada.setName(nombreTest);
         entityGuardada.setStatus(StatusCustomerEnum.ALTA.getValue());
 
-        // le decimos al mock: cuando alguien llame save() con cualquier CustomerEntity,
-        // devuelve la entidad que ya preparamos arriba (simulamos que la BD generó el id)
+
         when(customerRepository.save(any(CustomerEntity.class))).thenReturn(entityGuardada);
 
-        // ejecutamos el método que queremos testear
+
         createCustomerService.create(nombreTest);
 
         // capturamos el argumento real que recibió save() para poder inspeccionarlo
