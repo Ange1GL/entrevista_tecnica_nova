@@ -1,4 +1,4 @@
-package com.nova.customer_update.service.impl;
+package com.nova.customer_update.service;
 
 
 public interface CreateCustomerService {

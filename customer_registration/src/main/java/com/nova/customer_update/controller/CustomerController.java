@@ -2,7 +2,7 @@ package com.nova.customer_update.controller;
 
 
 import com.nova.customer_update.dto.response.CreateCustomerRequest;
-import com.nova.customer_update.service.impl.CreateCustomerService;
+import com.nova.customer_update.service.CreateCustomerService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
