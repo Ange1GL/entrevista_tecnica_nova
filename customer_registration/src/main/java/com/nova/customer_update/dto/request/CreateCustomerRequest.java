@@ -1,4 +1,4 @@
-package com.nova.customer_update.dto.response;
+package com.nova.customer_update.dto.request;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
